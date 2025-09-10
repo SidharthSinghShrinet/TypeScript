@@ -1,6 +1,24 @@
 //! In this we are going to read about data types such as Object, Array, Tuples, Enum
 
 //& -------------------------- Object --------------------------------------------------------------------------
+
+/* 
+interface Person{
+    name:string;
+    age:number;
+    city:string;
+}
+
+const person:Person={
+    name:"Krishna",
+    age:128,
+    city:"Dwarka"
+}
+
+person.city = "Vrindawan";
+console.log(person);
+*/
+
 /*
 let obj :{
     name:string,
