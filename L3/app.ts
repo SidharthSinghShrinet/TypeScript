@@ -96,3 +96,24 @@ console.log(answer2);
 console.log(answer3);
 */
 
+type combinable = string | number;
+
+function combine(num1:combinable,num2:combinable){
+    if(num1==="number" && num2==="number"){
+        return +num1 + +num2
+    } else if(num2==="string" && num2==="string"){
+        return num1.toString() + num2.toString();
+    } else {
+        return num1.toString() + num2.toString();
+    }
+}
+
+let answer1 = combine(5,6);
+let answer2 = combine("Sita","Ram");
+let answer3 = combine("Jai Shree Ram",108);
+let answer4 = combine(108,"Radha");
+
+console.log(answer1);
+console.log(answer2);
+console.log(answer3);
+console.log(answer4);
